@@ -1,5 +1,5 @@
 from extractors import regex_extractor, xpath_extractor
-from roadrunner import prettify
+from roadrunner.utils import *
 
 if __name__ == '__main__':
     # regex_extractor.extract_contents("./WebPages/overstock.com/jewelry01.html")
